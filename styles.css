@@ -6,10 +6,48 @@
 
 .bgintro {
   background-image: url(./Assets/desktopIntro.svg);
-  /* background-repeat: no-repeat; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
 }
 
 .section__intro {
-  /* width: 100%; */
+  width: 100%;
   height: 100vh;
+}
+
+.intro__parent {
+  justify-content: space-around;
+  height: 100vh;
+  /* margin-left: 5rem; */
+  margin-bottom: 3rem;
+}
+
+.intro-1 {
+  justify-content: space-around;
+  height: 100%;
+  background-image: url('Assets/SmallPoints-ilustrationDesktop.svg');
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+.intro-description {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+}
+
+.name {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-size: 110px;
+  line-height: 100%;
+}
+
+.p-2 {
+  background-color: #1A2236;
+  color: #fff;
 }
